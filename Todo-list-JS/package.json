@@ -1,0 +1,43 @@
+{
+  "name": "todo-list-js",
+  "version": "2.0.0",
+  "description": "It's a JavaScript Based small Project with allowing features of IndexDB to use properly. How we can save Data into IndexDB and delete them . Also We use DOM Scripting & Event Listener feature of JS.",
+  "main": "dist/index.html",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.dev.js --open",
+    "start": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susanta96/Todo-list-JS.git"
+  },
+  "keywords": ["todo", "localstorage", "indexedDB", "tailwindcss"],
+  "author": {
+    "name": "Susanta Chakraborty",
+    "email": "susant.vanu7278@gmail.com",
+    "url": "https://susanta96.nft"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susanta96/Todo-list-JS/issues"
+  },
+  "homepage": "https://github.com/susanta96/Todo-list-JS#readme",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "css-minimizer-webpack-plugin": "^3.3.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.5",
+    "postcss": "^8.4.5",
+    "postcss-loader": "^6.2.1",
+    "postcss-preset-env": "^7.1.0",
+    "style-loader": "^3.3.1",
+    "tailwindcss": "^3.0.8",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
+}
